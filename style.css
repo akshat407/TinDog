@@ -1,0 +1,168 @@
+#title {
+    background-color: #A460ED;
+    color: #fff;
+}
+
+#body {
+    font-family: 'Montserrat-black', sans-serif;
+
+
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 50%;
+    /* top: 30%; */
+    bottom: 10%;
+}
+
+#features {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.icon {
+    color: #B1AFFF;
+    margin-bottom: 1rem;
+
+}
+
+.icon:hover {
+    color: #A460ED;
+}
+
+/* .testimonials-head
+{
+    padding: 7% 15%;
+} */
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #A460ED;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #A460ED;
+    text-align: center;
+    padding: 4%;
+
+}
+
+.press-logo {
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+#carouselExampleFade {
+    text-align: center;
+    background-color: #A460ED;
+}
+
+.card {
+    text-align: center;
+    padding: 2% 3%;
+    background-color: #A460ED;
+}
+
+/* .row {
+    background-color: #A460ED;
+} */
+
+#pricing {
+    padding: 50px;
+    text-align: center;
+}
+
+#cta {
+    background-color: #A460ED;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    /* font-family: 'Franklin Gothic Bold', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.fa-brands {
+    margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
